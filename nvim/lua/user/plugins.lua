@@ -144,11 +144,7 @@ return packer.startup(function(use)
 
 
     --> Folding
-    use({ 'anuvyklack/pretty-fold.nvim',
-           config = function()
-              require('pretty-fold').setup()
-           end
-    })
+    use( 'anuvyklack/pretty-fold.nvim' )
 
 
     use ('TaDaa/vimade') -- Darken inactive
